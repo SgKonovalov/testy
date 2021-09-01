@@ -4,4 +4,4 @@ import (
 	"github.com/adjust/redismq"
 )
 
-var TestQueue = redismq.CreateQueue("localhost", "6379", "", 9, "clicks")
+var TestQueue = redismq.CreateQueue("127.0.0.1:", "6379", "", 9, "clicks")
